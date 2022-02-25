@@ -1,0 +1,13 @@
+#inputWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 20rem;
+    position: absolute;
+    left: 35vw;
+}
+
+#inputWrapper > input {
+    width: 7rem;
+    height: 1rem;
+}

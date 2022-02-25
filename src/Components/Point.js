@@ -10,7 +10,7 @@ export default class Point {
         this.maxAmount = maxAmount
     }
     
-    fillPoint(amount, diffusion, minAmount, maxAmount) {
+    updatePoint(amount, diffusion, minAmount, maxAmount) {
         this.amount = amount
         this.diffusion = diffusion
         this.minAmount = minAmount
